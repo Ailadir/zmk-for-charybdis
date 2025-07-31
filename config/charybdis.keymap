@@ -53,23 +53,23 @@
 
         F_layers {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6        &kp F7     &kp F8     &kp F9    &kp F10       &kp F11    &kp F12
-&trans  &none   &none   &none   &none   &trans        &none      &none      &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
-&trans  &none   &none   &none   &none   &trans        &mkp LCLK  &mkp RCLK  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &none         &none      &none      &trans    &trans        &none      &trans
-                        &trans  &trans  &To0_macro    &mkp LCLK  &mkp RCLK
-                                &trans  &trans        &trans
+&kp F1     &kp F2  &kp F3  &kp F4                &kp F5                &kp F6                   &kp F7          &kp F8           &kp F9            &kp F10            &kp F11    &kp F12
+&kp GRAVE  &none   &none   &none                 &none                 &trans                   &none           &none            &none             &kp UP_ARROW       &kp MINUS  &kp EQUAL
+&kp TILDE  &none   &none   &none                 &none                 &trans                   &mkp LCLK       &mkp RCLK        &kp LEFT          &kp DOWN           &kp RIGHT  &trans
+&trans     &trans  &trans  &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE   &trans
+                           &trans                &trans                &To0_macro               &mkp LCLK       &mkp RCLK
+                                                 &trans                &trans                   &trans
             >;
         };
 
         BT_layers {
             bindings = <
-&trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_CLR_ALL  &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
-                                      &trans        &trans        &trans          &trans      &trans
-                                                    &trans        &trans          &trans
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3          &bt BT_SEL 4            &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR      &trans        &trans        &trans        &trans                &trans                  &trans      &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &kp K_MUTE    &kp C_VOL_DN          &kp C_VOLUME_UP         &trans      &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &trans      &trans  &trans  &trans  &trans  &trans
+                                            &trans        &trans                &trans                  &trans      &trans
+                                                          &trans                &trans                  &trans
             >;
         };
 
