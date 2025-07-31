@@ -31,8 +31,8 @@
         coding {
             bindings = <
 &kp F1     &kp F2  &kp F3  &kp F4                &kp F5                &kp F6                   &kp F7          &kp F8           &kp F9            &kp F10            &kp F11    &kp F12
-&kp GRAVE  &none   &none   &none                 &none                 &trans                   &none           &none            &none             &kp UP_ARROW       &kp MINUS  &kp EQUAL
-&kp TILDE  &none   &none   &none                 &none                 &trans                   &mkp LCLK       &mkp RCLK        &kp LEFT          &kp DOWN           &kp RIGHT  &trans
+&kp GRAVE  &none   &none   &none                 &none                 &trans                   &none           &none            &none             &none              &kp MINUS  &kp EQUAL
+&kp TILDE  &none   &none   &none                 &none                 &trans                   &kp LEFT_ARROW  &kp UP_ARROW     &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp RIGHT  &trans
 &trans     &trans  &trans  &kp NON_US_BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE   &trans
                            &trans                &trans                &trans                   &mkp LCLK       &mkp RCLK
                                                  &trans                &trans                   &trans
