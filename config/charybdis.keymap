@@ -24,7 +24,7 @@
 &kp LCTRL       &kp A   &kp S   &kp D             &kp F   &kp G         &kp H          &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X   &kp C             &kp V   &kp B         &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_ALT
                                 &kp LEFT_COMMAND  &oil    &kp RETURN    &kp BACKSPACE  &kp SPACE
-                                                  &trans  &trans        &mo 2
+                                                  &mo 4   &tog 3        &mo 2
             >;
         };
 
@@ -47,6 +47,28 @@
 &trans          &trans        &trans        &trans        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC    &trans          &trans          &trans        &trans           &trans  &trans
                                             &trans        &trans                &trans                  &trans          &trans
                                                           &trans                &trans                  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
             >;
         };
     };
